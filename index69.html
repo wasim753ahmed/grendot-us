@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer data-domain="greens-dot-com-five.vercel.app" src="https://plausible.io/js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+      }
+
+      .full-page-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+      }
+
+      .full-page-image {
+        background-image: url("image-desk.png");
+      }
+
+      @media (max-width: 768px) {
+        .full-page-image {
+          background-image: url("image-mob.png");
+        }
+      }
+
+      .full-page-image a {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full-page-image">
+      <a href="https://greensdots.z13.web.core.windows.net/"></a>
+    </div>
+  </body>
+</html>
